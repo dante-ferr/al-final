@@ -26,6 +26,13 @@ O binário será gerado dentro da pasta `build`.
 ./build/main
 ```
 
+## Execução Alternativa
+Caso não rode o projeto do jeito normal, você pode tentar compilar o arquivo único por g++ e executar o binário em seguida:
+```
+g++ solucao_unica.c -o solucao_unica
+./solucao_unica
+```
+
 ### Formato de Entrada
 
 O programa espera a entrada no seguinte formato via `stdin` (pode ser digitado ou colado):
